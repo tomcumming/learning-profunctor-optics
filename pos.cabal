@@ -1,0 +1,10 @@
+cabal-version: 3.4
+name: pos
+version: 0.1.0.0
+
+executable pos
+    ghc-options: -Wall
+    default-language: GHC2024
+    default-extensions: QuantifiedConstraints
+    build-depends: base
+    main-is: ProfunctorOptics.hs
